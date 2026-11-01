@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Reply</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_rules">Rules</string>
+    <string name="tab_block">Call block</string>
+    <string name="tab_logs">Log</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="reset_default">Reset to default</string>
+    <string name="range_error">Enter a number from %1$d to %2$d</string>
+    <string name="status_on">Allowed</string>
+    <string name="status_off">Not allowed yet</string>
+
+    <!-- Defaults -->
+    <string name="default_reply">Hello {name}, I am busy right now and will reply as soon as I can.</string>
+    <string name="default_fallback">I am not available at the moment. I will get back to you soon.</string>
+    <string name="default_missed_voice">Sorry {name}, I missed your voice call. I will call you back soon.</string>
+    <string name="default_missed_video">Sorry {name}, I missed your video call. I will call you back soon.</string>
+
+    <!-- Home -->
+    <string name="home_title">Auto Reply</string>
+    <string name="master_switch">Auto reply</string>
+    <string name="master_on">On. Messages from individual contacts get a reply.</string>
+    <string name="master_off">Off. Nothing will be sent.</string>
+    <string name="stats_today">Replies sent today: %1$d</string>
+    <string name="setup_title">Setup</string>
+    <string name="perm_notif_title">Notification access</string>
+    <string name="perm_notif_desc">Required to read WhatsApp notifications and reply to them.</string>
+    <string name="perm_role_title">Call screening app</string>
+    <string name="perm_role_desc">Required to reject phone calls from the numbers you choose. Your phone will ask you to confirm.</string>
+    <string name="perm_battery_title">Battery optimisation</string>
+    <string name="perm_battery_desc">Allow this so the system does not stop the app in the background.</string>
+    <string name="btn_open_settings">Open settings</string>
+    <string name="btn_set_default">Set as call screening app</string>
+    <string name="btn_allow">Allow</string>
+    <string name="restricted_title">If the switch is greyed out</string>
+    <string name="restricted_desc">On Android 13 and later, apps installed from outside the Play Store are restricted. Open App info, tap the three dots at the top right, choose Allow restricted settings, then come back and open Notification access again.</string>
+    <string name="btn_app_info">Open App info</string>
+    <string name="notes_title">Good to know</string>
+    <string name="note_group">Group chats are always ignored. Only one-to-one chats get replies.</string>
+    <string name="note_calls">Call blocking works only for normal phone calls. WhatsApp calls cannot be blocked by Android apps. For missed WhatsApp calls the app sends an apology message instead.</string>
+    <string name="note_reply_button">Replies work only when WhatsApp shows a Reply button in the notification. Muted chats or dismissed notifications may not get a reply.</string>
+    <string name="note_tos">Automating WhatsApp replies may go against WhatsApp\'s terms. Use at your own risk.</string>
+
+    <!-- Messages -->
+    <string name="msgs_title">Messages</string>
+    <string name="placeholders_help">You can use {name} for the contact name, {time} for the time, {date} for the date and {day} for the weekday.</string>
+    <string name="sec_chat_replies">Chat replies</string>
+    <string name="msg_reply_label">Auto reply message</string>
+    <string name="msg_fallback_label">Universal default message</string>
+    <string name="msg_fallback_help">Used whenever another message is empty.</string>
+    <string name="sec_missed_calls">Missed calls</string>
+    <string name="switch_missed_call">Apologise for missed calls</string>
+    <string name="missed_call_help">Sends a message when you miss a WhatsApp voice or video call.</string>
+    <string name="msg_voice_label">Missed voice call message</string>
+    <string name="msg_video_label">Missed video call message</string>
+    <string name="sec_advanced">Advanced</string>
+    <string name="phrases_help">If missed calls are not detected on your phone, add the words WhatsApp shows in the notification. Separate several words with commas.</string>
+    <string name="phrases_voice_label">Extra words for missed voice call</string>
+    <string name="phrases_video_label">Extra words for missed video call</string>
+
+    <!-- Rules -->
+    <string name="rules_title">Rules and limits</string>
+    <string name="sec_general">General</string>
+    <string name="switch_business">Include WhatsApp Business</string>
+    <string name="switch_business_desc">Also reply to WhatsApp Business notifications.</string>
+    <string name="sec_active_hours">Active hours</string>
+    <string name="switch_schedule">Reply only during active hours</string>
+    <string name="switch_schedule_desc">Outside this time and these days, no replies are sent.</string>
+    <string name="start_time">Start</string>
+    <string name="end_time">End</string>
+    <string name="sec_limits">Limits</string>
+    <string name="rate_limit_label">Minutes between replies to one contact</string>
+    <string name="rate_limit_help">A contact gets at most one reply in this time.</string>
+    <string name="call_rate_label">Minutes between missed call apologies</string>
+    <string name="call_rate_help">Enter 0 to apologise for every missed call.</string>
+    <string name="daily_cap_label">Maximum replies per day</string>
+    <string name="daily_cap_help">Enter 0 for no limit.</string>
+    <string name="delay_label">Delay before replying (seconds)</string>
+    <string name="delay_help">A short wait makes the reply look natural.</string>
+    <string name="sec_rules">Time based messages</string>
+    <string name="rules_help">A rule replaces the normal auto reply message during its time. The first matching rule is used.</string>
+    <string name="no_rules">No rules yet.</string>
+    <string name="rule_add">Add rule</string>
+    <string name="rule_edit">Edit rule</string>
+    <string name="rule_untitled">Untitled rule</string>
+    <string name="rule_label_field">Rule name</string>
+    <string name="rule_message_field">Message</string>
+    <string name="rule_time_fmt">%1$s to %2$s</string>
+    <string name="rule_enabled_fmt">Rule %1$s is on</string>
+    <string name="rule_edit_desc">Edit rule %1$s</string>
+    <string name="rule_delete_desc">Delete rule %1$s</string>
+    <string name="days_all">Every day</string>
+    <string name="sec_logs_settings">Log</string>
+    <string name="retention_label">Keep log for (days)</string>
+    <string name="retention_help">Enter 0 to keep the log forever.</string>
+
+    <!-- Call block -->
+    <string name="block_title">Call block</string>
+    <string name="block_info">Phone calls from the numbers below are rejected silently. All other calls ring as usual.</string>
+    <string name="block_role_warn">The app is not the call screening app yet. Set it on the Home tab, otherwise blocking will not work.</string>
+    <string name="switch_block">Call blocking</string>
+    <string name="block_hours_label">Block duration (hours)</string>
+    <string name="block_hours_help">24 hours by default. Applies when you add or renew a number.</string>
+    <string name="block_add_title">Add a number</string>
+    <string name="number_label">Phone number</string>
+    <string name="number_help">With or without country code.</string>
+    <string name="number_invalid">Enter a valid phone number.</string>
+    <string name="btn_add_block">Block for %1$d hours</string>
+    <string name="block_list_title">Blocked numbers</string>
+    <string name="block_empty">No numbers added.</string>
+    <string name="block_active_fmt">Blocked. %1$d hours %2$d minutes left.</string>
+    <string name="block_expired">Block has ended.</string>
+    <string name="btn_renew_fmt">Block again for %1$d hours</string>
+    <string name="renew_desc">Block %1$s again for %2$d hours</string>
+    <string name="btn_remove">Remove</string>
+    <string name="remove_desc">Remove %1$s from the list</string>
+
+    <!-- Log -->
+    <string name="logs_title">Log</string>
+    <string name="logs_empty">Nothing here yet.</string>
+    <string name="filter_all">All</string>
+    <string name="filter_replies">Replies</string>
+    <string name="filter_calls">Calls</string>
+    <string name="filter_skipped">Skipped</string>
+    <string name="filter_errors">Errors</string>
+    <string name="btn_export">Export CSV</string>
+    <string name="btn_clear">Clear log</string>
+    <string name="clear_title">Clear the log?</string>
+    <string name="clear_msg">All log entries will be deleted.</string>
+    <string name="log_message_prefix">Message: %1$s</string>
+    <string name="log_reply">Reply sent</string>
+    <string name="log_group">Group chat ignored</string>
+    <string name="log_missed_voice">Missed voice call apology sent</string>
+    <string name="log_missed_video">Missed video call apology sent</string>
+    <string name="log_blocked">Phone call rejected</string>
+    <string name="log_skip_schedule">Skipped: outside active hours</string>
+    <string name="log_skip_rate">Skipped: replied recently</string>
+    <string name="log_skip_cap">Skipped: daily limit reached</string>
+    <string name="log_skip_noaction">Skipped: no Reply button in notification</string>
+    <string name="log_skip_empty">Skipped: message is empty</string>
+    <string name="log_failed">Reply failed</string>
+    <string name="log_other">Event</string>
+</resources>
