@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ऑटो रिप्लाई</string>
+
+    <!-- टैब -->
+    <string name="tab_home">होम</string>
+    <string name="tab_messages">संदेश</string>
+    <string name="tab_rules">नियम</string>
+    <string name="tab_block">कॉल ब्लॉक</string>
+    <string name="tab_logs">लॉग</string>
+
+    <!-- सामान्य -->
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="save">सेव करें</string>
+    <string name="reset_default">डिफ़ॉल्ट पर वापस</string>
+    <string name="range_error">%1$d से %2$d के बीच की संख्या डालें</string>
+    <string name="status_on">अनुमति मिली हुई है</string>
+    <string name="status_off">अभी अनुमति नहीं मिली</string>
+
+    <!-- डिफ़ॉल्ट संदेश -->
+    <string name="default_reply">नमस्ते {name}, मैं अभी व्यस्त हूँ। जैसे ही समय मिलेगा, मैं आपको जवाब दूँगा।</string>
+    <string name="default_fallback">मैं अभी उपलब्ध नहीं हूँ। जल्द ही आपसे संपर्क करूँगा।</string>
+    <string name="default_missed_voice">माफ़ कीजिए {name}, आपकी वॉइस कॉल मुझसे छूट गई। मैं जल्द ही आपको वापस कॉल करूँगा।</string>
+    <string name="default_missed_video">माफ़ कीजिए {name}, आपकी वीडियो कॉल मुझसे छूट गई। मैं जल्द ही आपको वापस कॉल करूँगा।</string>
+
+    <!-- होम -->
+    <string name="home_title">ऑटो रिप्लाई</string>
+    <string name="master_switch">ऑटो रिप्लाई</string>
+    <string name="master_on">चालू है। व्यक्तिगत कॉन्टैक्ट के संदेशों का जवाब जाएगा।</string>
+    <string name="master_off">बंद है। कोई संदेश नहीं भेजा जाएगा।</string>
+    <string name="stats_today">आज भेजे गए जवाब: %1$d</string>
+    <string name="setup_title">सेटअप</string>
+    <string name="perm_notif_title">नोटिफिकेशन एक्सेस</string>
+    <string name="perm_notif_desc">WhatsApp की नोटिफिकेशन पढ़ने और उनका जवाब देने के लिए ज़रूरी है।</string>
+    <string name="perm_role_title">कॉल स्क्रीनिंग ऐप</string>
+    <string name="perm_role_desc">आपके चुने हुए नंबरों की फ़ोन कॉल रिजेक्ट करने के लिए ज़रूरी है। फ़ोन आपसे पुष्टि माँगेगा।</string>
+    <string name="perm_battery_title">बैटरी ऑप्टिमाइज़ेशन</string>
+    <string name="perm_battery_desc">इसे अनुमति दें ताकि सिस्टम ऐप को बैकग्राउंड में बंद न करे।</string>
+    <string name="btn_open_settings">सेटिंग्स खोलें</string>
+    <string name="btn_set_default">कॉल स्क्रीनिंग ऐप बनाएँ</string>
+    <string name="btn_allow">अनुमति दें</string>
+    <string name="restricted_title">अगर स्विच धूसर (ग्रे) दिखे</string>
+    <string name="restricted_desc">Android 13 और उसके बाद, Play Store के बाहर से इंस्टॉल किए गए ऐप पर पाबंदी रहती है। ऐप जानकारी खोलें, ऊपर दाईं ओर तीन बिंदुओं पर टैप करें, "प्रतिबंधित सेटिंग्स की अनुमति दें" चुनें, फिर वापस आकर नोटिफिकेशन एक्सेस दोबारा खोलें।</string>
+    <string name="btn_app_info">ऐप जानकारी खोलें</string>
+    <string name="notes_title">ज़रूरी बातें</string>
+    <string name="note_group">ग्रुप चैट हमेशा अनदेखी की जाती हैं। सिर्फ़ व्यक्तिगत चैट का जवाब जाता है।</string>
+    <string name="note_calls">कॉल ब्लॉकिंग सिर्फ़ सामान्य फ़ोन कॉल पर काम करती है। WhatsApp कॉल को Android ऐप ब्लॉक नहीं कर सकते। छूटी हुई WhatsApp कॉल पर ऐप माफ़ी का संदेश भेजता है।</string>
+    <string name="note_reply_button">जवाब तभी जा सकता है जब WhatsApp की नोटिफिकेशन में Reply बटन दिखे। म्यूट की गई चैट या हटाई गई नोटिफिकेशन पर जवाब नहीं जा पाएगा।</string>
+    <string name="note_tos">WhatsApp जवाबों को ऑटोमेट करना WhatsApp की शर्तों के ख़िलाफ़ हो सकता है। अपने जोखिम पर इस्तेमाल करें।</string>
+
+    <!-- संदेश -->
+    <string name="msgs_title">संदेश</string>
+    <string name="placeholders_help">आप {name} (कॉन्टैक्ट का नाम), {time} (समय), {date} (तारीख़) और {day} (वार) का इस्तेमाल कर सकते हैं।</string>
+    <string name="sec_chat_replies">चैट के जवाब</string>
+    <string name="msg_reply_label">ऑटो रिप्लाई संदेश</string>
+    <string name="msg_fallback_label">यूनिवर्सल डिफ़ॉल्ट संदेश</string>
+    <string name="msg_fallback_help">जब कोई दूसरा संदेश खाली हो, तब यही भेजा जाता है।</string>
+    <string name="sec_missed_calls">छूटी हुई कॉल</string>
+    <string name="switch_missed_call">छूटी कॉल पर माफ़ी भेजें</string>
+    <string name="missed_call_help">WhatsApp की वॉइस या वीडियो कॉल छूटने पर संदेश भेजता है।</string>
+    <string name="msg_voice_label">छूटी वॉइस कॉल का संदेश</string>
+    <string name="msg_video_label">छूटी वीडियो कॉल का संदेश</string>
+    <string name="sec_advanced">उन्नत</string>
+    <string name="phrases_help">अगर आपके फ़ोन पर छूटी कॉल की पहचान न हो, तो नोटिफिकेशन में दिखने वाले शब्द यहाँ जोड़ें। कई शब्द कॉमा से अलग करें।</string>
+    <string name="phrases_voice_label">छूटी वॉइस कॉल के अतिरिक्त शब्द</string>
+    <string name="phrases_video_label">छूटी वीडियो कॉल के अतिरिक्त शब्द</string>
+
+    <!-- नियम -->
+    <string name="rules_title">नियम और सीमाएँ</string>
+    <string name="sec_general">सामान्य</string>
+    <string name="switch_business">WhatsApp Business भी शामिल करें</string>
+    <string name="switch_business_desc">WhatsApp Business की नोटिफिकेशन का भी जवाब दें।</string>
+    <string name="sec_active_hours">सक्रिय समय</string>
+    <string name="switch_schedule">सिर्फ़ सक्रिय समय में जवाब दें</string>
+    <string name="switch_schedule_desc">इस समय और इन दिनों के बाहर कोई जवाब नहीं भेजा जाएगा।</string>
+    <string name="start_time">शुरू</string>
+    <string name="end_time">समाप्त</string>
+    <string name="sec_limits">सीमाएँ</string>
+    <string name="rate_limit_label">एक कॉन्टैक्ट को दो जवाबों के बीच मिनट</string>
+    <string name="rate_limit_help">एक कॉन्टैक्ट को इतने समय में ज़्यादा से ज़्यादा एक जवाब जाएगा।</string>
+    <string name="call_rate_label">दो माफ़ी संदेशों के बीच मिनट</string>
+    <string name="call_rate_help">हर छूटी कॉल पर माफ़ी भेजने के लिए 0 डालें।</string>
+    <string name="daily_cap_label">प्रतिदिन अधिकतम जवाब</string>
+    <string name="daily_cap_help">कोई सीमा नहीं रखने के लिए 0 डालें।</string>
+    <string name="delay_label">जवाब से पहले देरी (सेकंड)</string>
+    <string name="delay_help">थोड़ी देरी से जवाब स्वाभाविक लगता है।</string>
+    <string name="sec_rules">समय के हिसाब से संदेश</string>
+    <string name="rules_help">नियम अपने समय में सामान्य ऑटो रिप्लाई संदेश की जगह लेता है। पहला मेल खाने वाला नियम इस्तेमाल होता है।</string>
+    <string name="no_rules">अभी कोई नियम नहीं है।</string>
+    <string name="rule_add">नियम जोड़ें</string>
+    <string name="rule_edit">नियम बदलें</string>
+    <string name="rule_untitled">बिना नाम का नियम</string>
+    <string name="rule_label_field">नियम का नाम</string>
+    <string name="rule_message_field">संदेश</string>
+    <string name="rule_time_fmt">%1$s से %2$s</string>
+    <string name="rule_enabled_fmt">नियम %1$s चालू है</string>
+    <string name="rule_edit_desc">नियम %1$s बदलें</string>
+    <string name="rule_delete_desc">नियम %1$s हटाएँ</string>
+    <string name="days_all">हर दिन</string>
+    <string name="sec_logs_settings">लॉग</string>
+    <string name="retention_label">लॉग कितने दिन रखें</string>
+    <string name="retention_help">हमेशा रखने के लिए 0 डालें।</string>
+
+    <!-- कॉल ब्लॉक -->
+    <string name="block_title">कॉल ब्लॉक</string>
+    <string name="block_info">नीचे दिए नंबरों की फ़ोन कॉल चुपचाप रिजेक्ट होती हैं। बाकी सभी कॉल सामान्य रूप से बजती हैं।</string>
+    <string name="block_role_warn">ऐप अभी कॉल स्क्रीनिंग ऐप नहीं है। होम टैब पर इसे सेट करें, वरना ब्लॉकिंग काम नहीं करेगी।</string>
+    <string name="switch_block">कॉल ब्लॉकिंग</string>
+    <string name="block_hours_label">ब्लॉक की अवधि (घंटे)</string>
+    <string name="block_hours_help">डिफ़ॉल्ट 24 घंटे। नंबर जोड़ते या दोबारा ब्लॉक करते समय लागू होती है।</string>
+    <string name="block_add_title">नंबर जोड़ें</string>
+    <string name="number_label">फ़ोन नंबर</string>
+    <string name="number_help">देश कोड के साथ या बिना।</string>
+    <string name="number_invalid">सही फ़ोन नंबर डालें।</string>
+    <string name="btn_add_block">%1$d घंटे के लिए ब्लॉक करें</string>
+    <string name="block_list_title">ब्लॉक किए गए नंबर</string>
+    <string name="block_empty">कोई नंबर नहीं जोड़ा गया।</string>
+    <string name="block_active_fmt">ब्लॉक है। %1$d घंटे %2$d मिनट बाकी।</string>
+    <string name="block_expired">ब्लॉक की अवधि पूरी हो गई।</string>
+    <string name="btn_renew_fmt">%1$d घंटे के लिए फिर से ब्लॉक करें</string>
+    <string name="renew_desc">%1$s को %2$d घंटे के लिए फिर से ब्लॉक करें</string>
+    <string name="btn_remove">हटाएँ</string>
+    <string name="remove_desc">%1$s को सूची से हटाएँ</string>
+
+    <!-- लॉग -->
+    <string name="logs_title">लॉग</string>
+    <string name="logs_empty">अभी यहाँ कुछ नहीं है।</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_replies">जवाब</string>
+    <string name="filter_calls">कॉल</string>
+    <string name="filter_skipped">छोड़े गए</string>
+    <string name="filter_errors">त्रुटियाँ</string>
+    <string name="btn_export">CSV एक्सपोर्ट करें</string>
+    <string name="btn_clear">लॉग साफ़ करें</string>
+    <string name="clear_title">लॉग साफ़ करें?</string>
+    <string name="clear_msg">लॉग की सभी एंट्री हटा दी जाएँगी।</string>
+    <string name="log_message_prefix">संदेश: %1$s</string>
+    <string name="log_reply">जवाब भेजा गया</string>
+    <string name="log_group">ग्रुप चैट अनदेखी की गई</string>
+    <string name="log_missed_voice">छूटी वॉइस कॉल पर माफ़ी भेजी गई</string>
+    <string name="log_missed_video">छूटी वीडियो कॉल पर माफ़ी भेजी गई</string>
+    <string name="log_blocked">फ़ोन कॉल रिजेक्ट की गई</string>
+    <string name="log_skip_schedule">छोड़ा गया: सक्रिय समय के बाहर</string>
+    <string name="log_skip_rate">छोड़ा गया: हाल ही में जवाब दिया जा चुका है</string>
+    <string name="log_skip_cap">छोड़ा गया: दैनिक सीमा पूरी हो गई</string>
+    <string name="log_skip_noaction">छोड़ा गया: नोटिफिकेशन में Reply बटन नहीं था</string>
+    <string name="log_skip_empty">छोड़ा गया: संदेश खाली है</string>
+    <string name="log_failed">जवाब भेजने में विफल</string>
+    <string name="log_other">घटना</string>
+</resources>
